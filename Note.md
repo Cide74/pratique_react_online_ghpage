@@ -10,8 +10,66 @@ npm i -D gh-pages
 yarn add -D gh-pages
 ```
 
-## Création de l'adresse 
+## Modification du fichier `package.json`
 
-```bash
+Le fichier package.json avant modification
 
+```json
+{
+  "name": "pratique_react_online_ghpage",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.16.3",
+    "@testing-library/react": "^12.1.4",
+    "@testing-library/user-event": "^13.5.0",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-scripts": "5.0.0",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "gh-pages": "^3.2.3"
+  }
+}
+```
+
+Intégration d'une `homepage` en 1er ligne. elle sera la page d'acceuil de notre site de base
+
+```json
+{
+"homepage": "https://notre_pseudo_GitHub.github.io/nom_du_ripo",
+}
+```
+
+Pour cette exemple cela donne :
+
+```json
+{
+"homepage": "https://cide74.github.io/pratique_react_online_ghpage",
+}
 ```
