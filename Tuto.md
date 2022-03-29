@@ -166,8 +166,7 @@ Après exécution de cette commande l'application est publier sur une nouvelle b
 
 ## Sur le Ripo de l'application
 
-aller dans `Settings` => Pages
+Dans gitHub aller dans `Settings` => `Pages`
 
-Si bleu => site en cous de déploiement
-Si vert => site plublier
-
+- Si bleu => site en cous de déploiement.
+- Si vert => site plublier.
