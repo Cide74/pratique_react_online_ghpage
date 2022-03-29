@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/pratique_react_online_ghpage/static/css/main.e17da846.css",
+    "main.js": "/pratique_react_online_ghpage/static/js/main.80ae6d0e.js",
+    "static/js/787.8e3f0315.chunk.js": "/pratique_react_online_ghpage/static/js/787.8e3f0315.chunk.js",
+    "static/media/logo.svg": "/pratique_react_online_ghpage/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/pratique_react_online_ghpage/index.html",
+    "main.e17da846.css.map": "/pratique_react_online_ghpage/static/css/main.e17da846.css.map",
+    "main.80ae6d0e.js.map": "/pratique_react_online_ghpage/static/js/main.80ae6d0e.js.map",
+    "787.8e3f0315.chunk.js.map": "/pratique_react_online_ghpage/static/js/787.8e3f0315.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e17da846.css",
+    "static/js/main.80ae6d0e.js"
+  ]
+}
