@@ -135,3 +135,39 @@ Rendu du fichier final
   }
 }
 ```
+
+## Mise en ligne de l'application
+
+### Création du build
+
+Cela va permettre de produire notre application
+
+Dans la console :
+
+```bash
+npm run build
+
+yarn run build
+```
+
+Création du fichier build pour la production.
+
+### Création de la branche de production
+
+Dans la console :
+
+```bash
+npm run deploy
+
+yarn run deploy
+```
+
+Après exécution de cette commande l'application est publier sur une nouvelle branche nommée `gh-pages`.
+
+## Sur le Ripo de l'application
+
+aller dans `Settings` => Pages
+
+Si bleu => site en cous de déploiement
+Si vert => site plublier
+
